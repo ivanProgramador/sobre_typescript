@@ -9,6 +9,22 @@
  recursos mais atuais quando necessário, assim o desenvolvedor não precisa esperar 
  para que o navegador fique compativel com as novas features.
 
+ o typeScript pode ser inslado de forma manual usando os comandos
+ esse instala ele de forma global na maquina 
+
+ npm install -g typescript
+
+ esse verifica a versão instalada
+ 
+ tsc -v 
+
+ e esse cria um arquivo de configuração
+
+ tsc --init
+
+
+
+
  
 
 
