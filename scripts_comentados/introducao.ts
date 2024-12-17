@@ -22,6 +22,12 @@
 
  tsc --init
 
+ o node não reconhece o ts de forma nativa então ele usa um pacote 
+ para executar chamado ts-node 
+
+
+
+
 
 
 

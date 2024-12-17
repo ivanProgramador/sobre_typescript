@@ -9,7 +9,8 @@
   ele faz um codigo js simples 
   
 */
-
+/*
 
 const a:string = 'Teste ts'
 console.log(a);
+*/
