@@ -48,4 +48,34 @@ const pessoa = {
 saudarComOla(pessoa);
 mudarNome(pessoa);
 saudarComOla(pessoa);
-pessoa.saudar('Silva')
+pessoa.saudar('Silva');
+
+/*
+Usando classes
+  No caso abaixo eu tenho uma classe que usa a interface Humano 
+  atraves da diretiva implements, quando isso aocntece a classe 
+  tem acesso aos atributos e metodos da interface Humano.
+*/ 
+
+class Cliente implements Humano{
+    nome:string=''
+    ultimaCompra:Date = new Date
+    saudar(sobrenome: string){
+        console.log('Olá, meu nome é ' + this.nome + ' ' + sobrenome)
+    }
+}
+
+/* instanciando um objeto com base na classe */
+const meuCliente = new Cliente();
+
+//preenchendo o nome 
+meuCliente.nome = 'Han'
+
+//usando o metodos saudar 
+saudarComOla(meuCliente);
+
+// preenchendo o sobrenome 
+meuCliente.saudar('solo');
+
+console.log(meuCliente.ultimaCompra);
+
