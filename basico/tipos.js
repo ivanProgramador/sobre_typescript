@@ -61,3 +61,12 @@ var Cor;
 let minhaCor = Cor.Verde;
 console.log(minhaCor);
 console.log(Cor.Azul);
+/*
+Any
+ Variveis do tipo any aceitam qualquer dado porque ela tem tipagem dinamica
+ isso é conveniente porém gera um certa insegurança em relação aos registros
+ isso possibilita que um cliente digite numeros ao inves de texto, fazendo
+ com que a organxação dos dados recebeida seja comprometida, dependendo do
+ contexto.
+
+*/
